@@ -137,6 +137,22 @@ header.header{
 					height: 60px;
 					border-radius: 50%;
 				}
+				&::before{
+					content: 'PS';
+					position: absolute;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-weight: bold;
+					color:#00C4F0;
+					font-size: 25px;
+					top: -15px;
+					left: -30px;
+					background-image: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+					width: 60px;
+					height: 60px;
+					border-radius: 50%;
+				}
 			}
 		}
 	}

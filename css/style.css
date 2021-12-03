@@ -1,25 +1,29 @@
 @font-face {
-  font-family: "Arodora Pro";
+  font-family: 'Arodora Pro';
   src: url("../fonts/ArodoraPro-Light.otf");
 }
+
 @font-face {
-  font-family: "Nico Moji";
+  font-family: 'Nico Moji';
   src: url("../fonts/nicomoji/NicoMoji-Regular.ttf");
 }
+
 @font-face {
-  font-family: "Next Art";
+  font-family: 'Next Art';
   src: url("../fonts/next_art/NEXT ART_Light.otf");
 }
+
 @font-face {
-  font-family: "Next bold";
+  font-family: 'Next bold';
   src: url("../fonts/next_art/NEXT ART_Bold.otf");
 }
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Arodora Pro";
+  font-family: 'Arodora Pro';
 }
 
 :focus {
@@ -45,6 +49,7 @@ header.header {
       -ms-flex-align: center;
           align-items: center;
 }
+
 header.header nav {
   width: 75%;
   height: 15%;
@@ -55,6 +60,7 @@ header.header nav {
       -ms-flex-align: center;
           align-items: center;
 }
+
 header.header nav ul {
   width: 100%;
   height: 50%;
@@ -63,9 +69,11 @@ header.header nav ul {
   display: flex;
   list-style: none;
 }
+
 header.header nav ul span.s-text {
-  font-family: "Nico Moji";
+  font-family: 'Nico Moji';
 }
+
 header.header nav ul li {
   text-align: center;
   display: -webkit-box;
@@ -79,21 +87,26 @@ header.header nav ul li {
           align-items: center;
   width: 450px;
 }
+
 header.header nav ul li img {
   width: 65px;
   height: 48px;
 }
+
 header.header nav ul li span {
   margin-left: 15px;
   color: #fff;
 }
+
 header.header nav ul li a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
+
 header.header nav ul li.li-links {
   width: 250px;
 }
+
 header.header div.second-section {
   height: 85%;
   width: 75%;
@@ -107,6 +120,7 @@ header.header div.second-section {
       -ms-flex-align: center;
           align-items: center;
 }
+
 header.header div.second-section div.title-content {
   width: 50%;
   height: 100%;
@@ -120,18 +134,21 @@ header.header div.second-section div.title-content {
       -ms-flex-align: center;
           align-items: center;
 }
+
 header.header div.second-section div.title-content h1 {
   color: #E4E4E4;
-  font-family: "NEXT ARt";
+  font-family: 'NEXT ARt';
 }
+
 header.header div.second-section div.title-content p {
   color: #e5e5e5;
-  font-family: "Arodora Pro";
-  opacity: 0.7;
+  font-family: 'Arodora Pro';
+  opacity: .7;
   font-family: Arodora Pro;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 header.header div.second-section div.title-content button {
   display: inline-block;
   text-transform: uppercase;
@@ -142,9 +159,10 @@ header.header div.second-section div.title-content button {
           box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
   border-radius: 6px;
   padding: 14px 15px;
-  font-family: "NExt bold";
+  font-family: 'NExt bold';
   font-weight: bold;
 }
+
 header.header div.second-section div.gleb-content {
   width: 50%;
   height: 100%;
@@ -158,6 +176,7 @@ header.header div.second-section div.gleb-content {
       -ms-flex-align: center;
           align-items: center;
 }
+
 header.header div.second-section div.gleb-content div.ux-designed-box {
   width: 400px;
   height: 400px;
@@ -170,8 +189,9 @@ header.header div.second-section div.gleb-content div.ux-designed-box {
   -webkit-filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
           filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
 }
+
 header.header div.second-section div.gleb-content div.ux-designed-box::after {
-  content: "UX";
+  content: 'UX';
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,3 +212,27 @@ header.header div.second-section div.gleb-content div.ux-designed-box::after {
   height: 60px;
   border-radius: 50%;
 }
+
+header.header div.second-section div.gleb-content div.ux-designed-box::before {
+  content: 'PS';
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  color: #00C4F0;
+  font-size: 25px;
+  top: -15px;
+  left: -30px;
+  background-image: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
